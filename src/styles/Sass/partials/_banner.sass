@@ -1,0 +1,59 @@
+header
+    min-height: calc( 100vh - 94px)
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(200, 0, 0, 0.3)),url(../../assets/video/bnanimacao.gif)
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    background-attachment: fixed 
+    position: relative
+
+.row-bn
+    min-height: calc(100vh - 94px)
+
+
+.banner
+    h1
+        border-top: 6px dotted $white
+        border-bottom: 6px dotted $white
+        animation: forRight 4s forwards
+
+        small
+            color: $white
+            font-family: $main_font
+
+        strong
+            color: $dark-yellow
+            font-family: $main_font
+
+    .order-btn
+        color: $white
+        background: $dark-brown
+        border-radius: 10px
+        font-size: 2rem
+        border: 2px solid $dark-yellow
+        transition: all .5 ease-in-out
+        animation: forLeft 4s forwards
+
+        &:hover
+            color: $dark-red
+            border: 2px solid $light-red
+            background: $dark-yellow
+
+
+.btn-forward
+    display: inline-block
+    position: absolute
+    bottom: 5%
+    left: 50%
+    color: $dark-brown !important
+    background: $orange !important
+    border-radius: 10px
+    transition: all .5 ease
+    animation: jumpButton 3s infinite
+
+    &:hover
+        background: $yellow !important
+        color: $dark-brown !important
+        
+
+

@@ -1,0 +1,36 @@
+{
+  "name": "na-brasa",
+  "version": "1.0.0",
+  "description": " A site developed on front-end course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-luk/na-brasa.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "bootstrap",
+    "jquery",
+    "sass",
+    "front-end"
+  ],
+  "author": "Lucas P",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hash-luk/na-brasa/issues"
+  },
+  "homepage": "https://github.com/hash-luk/na-brasa#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "jquery.ripples": "^0.6.3",
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

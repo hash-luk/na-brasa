@@ -1,0 +1,64 @@
+.navbar
+    font-family: $main_font
+    background: $dark-brown !important
+    padding: 20px
+    transition: all .1 ease
+
+.navbar-background
+    padding: 5px 20px
+
+.navbar-brand
+    img
+        height: 50px
+        transition: all .2 ease-in-out
+
+        &:hover
+            transform: scale(1.1)
+
+    &:hover
+        color: $orange
+    
+.nav-link
+    color: $orange
+    text-decoration: none
+    display: inline-block
+    transition: all .1 ease
+    font-size: 23px
+
+    &:hover
+        color: $dark-yellow
+
+.nav-btn
+    background: $dark-brown
+    color: $dark-yellow !important
+    border: 2px solid $dark-red
+    font-size: 23px
+    transition: all .1 ease
+
+    &:hover
+        border: 2px solid $light-red
+        color: $dark-brown !important
+        background: $dark-yellow
+        transform: rotate(5deg)
+
+.toggler-btn
+    border: 2px solid $orange
+    padding: 5px
+    transition: all .1 ease
+
+.bar
+    width: 30px
+    height: 3px
+    margin: 5px
+    background: $orange
+    transition: all .5 ease
+
+.change .bar1
+    transform: rotate(45deg) translate(8px,5px)
+
+.change .bar2
+    opacity: 0
+
+.change .bar3
+    transform: rotate(-45deg) translate(6px,-3px)
+

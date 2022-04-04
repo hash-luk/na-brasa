@@ -1,0 +1,103 @@
+.team
+    padding: 30px 0 40px
+    background: rgba(0,0,0,0.6)
+    text-align: center
+    overflow: hidden
+    position: relative
+
+.team .photo
+    display: inline-block
+    width: 130px
+    height: 130px
+    margin-bottom: 50px
+    position: relative
+    z-index: 1
+
+.team .photo:before
+    content:''
+    width: 100%
+    height: 0
+    border-radius: 50%
+    background: $dark-yellow
+    position: absolute
+    bottom: 135%
+    right: 0
+    left: 0
+    transition: all 0.3s linear
+    transform: scale(3)
+
+.team:hover .photo:before
+    height: 100%
+
+.team .photo:after
+    content: ""
+    width: 100%
+    height: 100%
+    border-radius: 50%
+    background: $dark-yellow
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -1
+
+.team .photo img
+    width: 100%
+    height: auto
+    border-radius: 50%
+    transform: scale(1)
+    transition: all 0.9s ease 0s
+
+
+.team:hover .photo img
+    box-shadow: 0 0 0 14px $white
+    transform: scale(0.7)
+
+.team .team-content
+    margin-bottom: 30px
+
+.team .title
+    font-size: 30px
+    font-weight: 700
+    color: $dark-yellow
+    letter-spacing: 1px
+    text-transform: capitalize
+    margin-bottom: 5px 
+
+.team .function
+    display: block
+    font-size: 15px
+    color: $white
+    text-transform: capitalize
+
+.team .contacts
+    width: 100%
+    padding: 0
+    margin: 0
+    background: $dark-yellow
+    position: absolute
+    bottom: -100px
+    left: 0
+    transition: all 0.5s ease 0s
+
+
+.team:hover .contacts
+    bottom: 0
+
+.team .contacts li
+    display: inline-block
+    color: $dark-brown !important
+    padding: 10px 20px
+    font-size: 17px
+    transition: all 0.3s ease 0s
+
+.team .contacts li i
+    color: $dark-brown !important
+
+.team .contacts li:hover
+    i
+        color: $white !important
+
+    color: $dark-yellow !important
+    background: $dark-brown
+    text-decoration: none
+    cursor: pointer
